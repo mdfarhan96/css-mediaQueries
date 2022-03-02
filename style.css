@@ -1,0 +1,20 @@
+.main-box {
+  height: 200px;
+  display: flex;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  background-color: blueviolet;
+}
+@media screen and (max-width: 360px) {
+  .main-box {
+    display: block;
+    height: 1200px;
+  }
+  .box {
+    width: 100px;
+    height: 200px;
+  }
+}
